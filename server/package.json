@@ -4,7 +4,7 @@
     "description": "criando o server do projeto com node.js e express.js",
     "main": "index.js",
     "scripts": {
-        "start": "ts-node-dev src/server.ts",
+        "start": "ts-node-dev --ignore-watch node_modules src/server.ts",
         "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
         "knex:seed": "knex --knexfile knexfile.ts seed:run",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,8 @@
     "author": "Emilly Moura",
     "license": "ISC",
     "dependencies": {
+        "@types/cors": "^2.8.6",
+        "cors": "^2.8.5",
         "express": "^4.17.1",
         "knex": "^0.21.1",
         "sqlite3": "^4.2.0"
