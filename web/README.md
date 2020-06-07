@@ -11,7 +11,7 @@ Leaflet<br />
 Axios<br />
 Entre outras...
 
-# Como utilizar o web? 🤔
+# Como utilizar o repositório web? 🤔
   1. Clone esse repositório utilizando <code>git clone</code>.
   2. Navegue até a pasta 'web'.
   3. Rode o comando <code> npm install </code> na raíz da pasta para baixar as dependências.
