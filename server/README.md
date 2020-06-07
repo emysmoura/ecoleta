@@ -34,7 +34,7 @@ Para a pasta database, há a pasta de migrations e seeds.
 
 <br />
 
-# Como utilizar o backend? 🤔
+# Como utilizar o repositório backend? 🤔
   1. Clone esse repositório utilizando <code>git clone</code>.
   2. Navegue até a pasta 'backend'.
   3. Rode o comando <code> npm install </code> na raíz da pasta para baixar as dependências.
