@@ -2,7 +2,7 @@ import React from 'react';
 import { FiLogIn } from 'react-icons/fi'
 import logo from '../../assets/logo.svg';
 import './styles.css';
-import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
 const Home = () => {
     return (
         <div id="page-home">
@@ -13,12 +13,12 @@ const Home = () => {
                 <main>
                     <h1>Seu marketplace de coleta de resíduos.</h1>
                     <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
-                    <Link to="/create-point">
-                        <span>
-                            <FiLogIn />
-                        </span>
-                        <strong>Cadastre um ponto de coleta</strong>
-                    </Link>
+                    <Button
+                        className={"button default"}
+                        page={"/create-point"}
+                        icon={<FiLogIn />}
+                        text={'Cadastre um ponto de coleta'}
+                    />
                 </main>
             </div>
         </div>

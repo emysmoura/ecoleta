@@ -1,0 +1,33 @@
+legend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+legend h2 {
+    font-size: 24px;
+}
+
+legend span {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+fieldset {
+    margin-top: 20px;
+    min-inline-size: auto;
+    border: 0;
+}
+
+.field-group {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field-group .field+.field {
+    margin-left: 24px;
+}
